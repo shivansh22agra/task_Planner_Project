@@ -7,7 +7,7 @@ const options = {
   dropSchema: false,
   port: 5432,
   username: 'postgres',
-  password: '123456789',
+  password: 'Password@@1',
   database: 'task_planner',
   entities: [resolve(__dirname, '..', 'entity', '*')],
   migrations: [resolve(__dirname, '..', 'migrations', '*')],
