@@ -6,7 +6,7 @@ import { taskCategoryModule } from "./modules/task_Category/task_Category.Module
 @Module({
     imports: [
         DatabaseModule,
-         //taskModule,
+         taskModule,
          taskCategoryModule
     ]
 })
